@@ -3,3 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*uti*/
+.flex{
+    display:flex ;
+    
+}
+
+.col-4{
+    width: calc(100%/12*4);
+    height: 100%;
+}
+/*uti*/
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*debug*/
+.debug .nav{
+    background-color: rgb(218, 50, 45);
+    height: 80px;
+
+}
+.debug .col-4{
+    background-color: aquamarine;
+}
+
+/*debug*/
