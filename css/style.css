@@ -189,10 +189,12 @@ section{
 .nav .btn {
     width: 70px;
     height: 35px;
+    color: white;
 }
 .col-4 .btn{
-    width: 220px;
+    width:max-content;
     padding: 10px;
+    
 }
 
 
@@ -295,6 +297,7 @@ h4{
 .designit{
     background-color: #A2D39B;
     
+    
 }
 .asu{
     background-color: #61082B;
@@ -303,10 +306,16 @@ h4{
 .uof{
     background-color: #0093CE;
     align-items: center;
+    
 }
 .topps{
     background-color: #FF1C1C;
+    color: white;
     
+    
+}
+.icon img{
+    filter: invert(1);
 }
 /*icons*/
 
