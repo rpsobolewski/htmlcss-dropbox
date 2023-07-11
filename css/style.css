@@ -70,7 +70,7 @@ a {
 
 .jumbo {
     position: absolute;
-    top: 120%;
+    top: 130%;
 
 }
 
@@ -87,7 +87,21 @@ a {
     font-size:40px ;
 }
 
+.selection{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.sel2{
+    padding-left: 20px;
+}
+ .selection h2{
+    font-size: 43px;
+    padding-bottom: 80px;
+ }
 
+ #price .col-4{
+    border: 2px solid lightgray;
+ }
 /*btn*/
 .btn {
     color: white;
@@ -116,8 +130,19 @@ a {
 
 
 .col-4 {
-    width: calc(97%/12*4);
+    width: calc(93%/12*4);
 
+}
+.padding{
+    padding: 20px;
+}
+.small_header{
+    text-align: center;
+    padding: 12px;
+}
+
+.light{
+    color: gray;
 }
 
 /*uti*/
