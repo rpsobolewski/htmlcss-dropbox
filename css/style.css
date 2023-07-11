@@ -18,6 +18,11 @@ main {
     justify-content: space-around;
     align-items: center;
     height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 
 .banner {
@@ -26,6 +31,7 @@ main {
     height: 740px;
     justify-content: center;
     align-items: flex-start;
+    
 
 
 
@@ -33,17 +39,17 @@ main {
 
 .card {
     padding-left: 360px;
-    position: relative;
+    position:relative ;
     align-items: flex-start;
 }
 
 #price {
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
-a {
+header a {
     text-decoration: none;
     color: black;
 
@@ -68,10 +74,9 @@ a {
 
 }
 
-.jumbo {
+.jumbo{
     position: absolute;
-    top: 130%;
-
+    top: 120%;
 }
 
 .jumbotext{
@@ -102,6 +107,27 @@ a {
  #price .col-4{
     border: 2px solid lightgray;
  }
+
+ .radio{
+    color: #0062ff00;
+    padding-left: 13px;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    font-size: 12px;
+    margin-right: 3px;
+ }
+ .radio_checked{
+    color: #0062ff00;
+    padding-left: 9px;
+    border-radius: 50%;
+    border: 5px solid #0061FF;
+    font-size: 8px;
+    margin-right: 3px;
+ }
+
+ .list h3{
+    
+ }
 /*btn*/
 .btn {
     color: white;
@@ -117,6 +143,10 @@ a {
     width: 70px;
     height: 35px;
 }
+#price .btn{
+    width: 220px;
+    padding: 10px;
+}
 
 
 
@@ -131,19 +161,36 @@ a {
 
 .col-4 {
     width: calc(93%/12*4);
+    position: relative;
 
 }
 .padding{
-    padding: 20px;
+    padding: 30px;
 }
-.small_header{
-    text-align: center;
+.padding_less{
     padding: 12px;
 }
 
+.ta{
+    text-align:center;
+}
+.ma{
+    margin: auto;
+}
+
+.small{
+    width: 70px;
+    position: absolute;
+    left: 30px;
+}
 .light{
     color: gray;
 }
+
+.fa-check{
+    color: #0061FF;
+}
+
 
 /*uti*/
 .nav {
