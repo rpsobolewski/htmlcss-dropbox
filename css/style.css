@@ -46,6 +46,7 @@ main {
 #price {
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 
@@ -125,15 +126,16 @@ header a {
     margin-right: 3px;
  }
 
- .list h3{
-    
- }
+ 
+
+ 
 /*btn*/
 .btn {
     color: white;
     background-color: #0061FF;
     text-align: center;
     padding-top: 5px;
+    text-decoration: none;
 }
 
 .jumboleft .btn{
@@ -143,13 +145,17 @@ header a {
     width: 70px;
     height: 35px;
 }
-#price .btn{
+.col-4 .btn{
     width: 220px;
     padding: 10px;
 }
 
 
-
+.vendite{
+    margin-right: 30px;
+    
+    padding: 10px;
+}
 /*btn*/
 
 /*uti*/
@@ -157,20 +163,46 @@ header a {
     display: flex;
 
 }
+.flexh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+ul{
+    list-style: none;
+}
 
+h4{
+    padding-left: 30px;
+}
 .col-4 {
-    width: calc(93%/12*4);
-    position: relative;
+    width: calc(90%/12*4);
+    
 
 }
+.col-h{
+    width: 100%;
+    border: 2px solid lightgray;
+    margin-top: 50px;
+    position: relative;
+}
+
+
 .padding{
     padding: 30px;
+}
+.padding_left{
+    padding-left: 50px;
+    
 }
 .padding_less{
     padding: 12px;
 }
 
+.margin_neg{
+    margin-left: -17px;
+}
 .ta{
     text-align:center;
 }
@@ -180,8 +212,7 @@ header a {
 
 .small{
     width: 70px;
-    position: absolute;
-    left: 30px;
+    
 }
 .light{
     color: gray;
