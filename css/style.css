@@ -237,12 +237,13 @@ header a {
     width: 99.3vw;
     justify-content: center;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .prova2 {
     padding-top: 50px;
-
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .faq {
@@ -295,6 +296,7 @@ header a {
     left: 50px;
     width: 70px;
 }
+
 
 /*effects*/
 .nav a:hover {
